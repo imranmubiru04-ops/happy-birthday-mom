@@ -14,7 +14,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+
+  body, html {
+  overflow: auto; /* or scroll */
+  height: auto;
+}
+};
 }
 .card {
     background: white;
